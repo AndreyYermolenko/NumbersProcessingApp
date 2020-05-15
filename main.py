@@ -26,11 +26,11 @@ print("Average number: " + str(nt.get_average()))
 print("Ascending sequence:\n"
       "    index_start: %s, \n"
       "    index_end: %s \n"
-      "    list elements: %s" %
+      "    list of elements: %s" %
       nt.get_inc_sequence())
 print("Descending sequence:\n"
       "    index_start: %s, \n"
       "    index_end: %s \n"
-      "    list elements: %s" %
+      "    list of elements: %s" %
       nt.get_des_sequence())
 print("--- %s seconds ---" % (time.time() - start_time))
