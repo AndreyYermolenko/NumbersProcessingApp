@@ -23,14 +23,6 @@ print("Min number: " + str(nt.get_min()))
 print("Max number: " + str(nt.get_max()))
 print("Median: " + str(nt.get_median()))
 print("Average number: " + str(nt.get_average()))
-print("Ascending sequence:\n"
-      "    index_start: %s, \n"
-      "    index_end: %s \n"
-      "    list of elements: %s" %
-      nt.get_inc_sequence())
-print("Descending sequence:\n"
-      "    index_start: %s, \n"
-      "    index_end: %s \n"
-      "    list of elements: %s" %
-      nt.get_des_sequence())
+nt.print_inc_sequences()
+nt.print_des_sequences()
 print("--- %s seconds ---" % (time.time() - start_time))
