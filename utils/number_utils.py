@@ -118,10 +118,11 @@ class NumberTracking:
             idx_end = idxes_dict[idx_begin]
             selection = self.__numbers_list[idx_begin:idx_end + 1]
             print("Ascending sequence:\n"
-                  "    index_start: {0}, \n"
-                  "    index_end: {1} \n"
-                  "    list of elements: {2} \n"
-                  .format(idx_begin, idx_end, selection)
+                  "    sequence length: {0}, \n"
+                  "    index_start: {1}, \n"
+                  "    index_end: {2}, \n"
+                  "    list of elements: {3} \n"
+                  .format(len(selection), idx_begin, idx_end, selection)
                   )
 
     def print_des_sequences(self):
@@ -132,8 +133,9 @@ class NumberTracking:
             idx_end = idxes_dict[idx_begin]
             selection = self.__numbers_list[idx_begin:idx_end + 1]
             print("Descending sequence:\n"
-                  "    index_start: {0}, \n"
-                  "    index_end: {1} \n"
-                  "    list of elements: {2} \n"
-                  .format(idx_begin, idx_end, selection)
+                  "    sequence length: {0}, \n"
+                  "    index_start: {1}, \n"
+                  "    index_end: {2}, \n"
+                  "    list of elements: {3} \n"
+                  .format(len(selection), idx_begin, idx_end, selection)
                   )
